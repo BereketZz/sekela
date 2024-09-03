@@ -1,6 +1,3 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable react/prop-types */
-/* eslint-disable react/jsx-filename-extension */
 import React from "react";
 
 import Fade from "react-awesome-reveal";

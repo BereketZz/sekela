@@ -1,18 +1,8 @@
-/* eslint-disable linebreak-style */
-/* eslint-disable no-useless-escape */
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable max-len */
-/* eslint-disable no-trailing-spaces */
-/* eslint-disable react/jsx-filename-extension */
-/* eslint-disable react/prop-types */
 import React from "react";
 
 import { Fade } from "react-awesome-reveal";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import * as emailjs from "@emailjs/browser";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import { ToastContainer, toast } from "react-toastify";
-// eslint-disable-next-line import/no-extraneous-dependencies
 import "react-toastify/dist/ReactToastify.css";
 
 import { Form } from "elements/Form";
@@ -129,7 +119,7 @@ export const DiscussForm = (actions) => {
             />
           </div>
           <Button
-            className="text-xl mx-auto px-12 py-3 mt-5 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple border-purple-800 transition duration-200 focus:outline-none"
+            className="text-xl mx-auto px-12 py-3 mt-5 bg-theme-purple text-white rounded-full border-2 border-theme-purple hover:bg-dark-theme-purple transition duration-200 focus:outline-none"
             type="button"
             onClick={submitEmail}
           >
