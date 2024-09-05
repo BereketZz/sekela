@@ -108,8 +108,8 @@ export const Advantages = [
 
 export const TeamMembers = [
   {
-    name: "CEO & Full Stack Developer",
-    position: "Back-end Developer",
+    name: "Daniel Kebede",
+    position: "CEO & Full Stack Developer",
     imageUrl: Backend1,
   },
   {
