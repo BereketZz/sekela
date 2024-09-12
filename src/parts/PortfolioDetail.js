@@ -96,7 +96,7 @@ export default function PortfolioDetail({ data }) {
               </p>
             </div>
 
-            <div className="flex flex-col mx-8 sm:mx-16 xl:mx-28">
+            <div className="flex flex-col  mb-12 mx-8 sm:mx-16 xl:mx-28">
               <h1 className="text-3xl text-theme-blue font-bold mb-5">
                 Project Responsibilities
               </h1>
@@ -107,6 +107,20 @@ export default function PortfolioDetail({ data }) {
                     {responsibility}
                   </div>
                 ))}
+              </div>
+            </div>
+            <div className="flex flex-col mx-8 sm:mx-16 xl:mx-28">
+              <h1 className="text-3xl text-theme-blue font-bold mb-5">
+                Project Live Link
+              </h1>
+
+              <div className="flex flex-row ml-1">
+                <a
+                  href={item.credit}
+                  className="mr-4 px-6 py-3 text-theme-purple border border-theme-purple rounded-full shadow-lg"
+                >
+                  Navigate
+                </a>
               </div>
             </div>
           </Fade>

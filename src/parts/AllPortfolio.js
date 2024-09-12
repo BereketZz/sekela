@@ -7,7 +7,7 @@ import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import Button from "elements/Button";
 
 export default function AllPortfolio({ data }) {
-  const mobile = data.filter((item) => item.type === "Mobile Apps");
+  // const mobile = data.filter((item) => item.type === "Mobile Apps");
 
   const website = data.filter((item) => item.type === "Website");
 
@@ -27,15 +27,10 @@ export default function AllPortfolio({ data }) {
                   Website
                 </button>
               </Tab>
-              <Tab>
-                <button className="font-normal px-8 py-2 text-theme-purple text-lg border border-theme-purple rounded-full transition duration-300 hover:bg-theme-purple hover:text-white focus:outline-none focus:bg-theme-purple focus:text-white">
-                  UI/UX
-                </button>
-              </Tab>
             </div>
           </TabList>
 
-          <TabPanel>
+          {/* <TabPanel>
             <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 justify-items-center">
               {mobile.map((item, index) => (
                 <Fade
@@ -90,7 +85,7 @@ export default function AllPortfolio({ data }) {
                 </Fade>
               ))}
             </div>
-          </TabPanel>
+          </TabPanel> */}
           <TabPanel>
             <div className="grid grid-cols-2 sm:grid-cols-3 sm:gap-2 xl:gap-8 justify-items-center">
               {website.map((item, index) => (

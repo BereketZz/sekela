@@ -7,6 +7,7 @@ import UIUX from "../assets/images/Services/Design.png";
 import Recruiting from "../assets/images/Portfolio/ashu.jpg";
 import Stream from "../assets/images/Portfolio/pc.jpg";
 import Freelance from "../assets/images/Portfolio/sms.jpg";
+import North from "../assets/images/Portfolio/north.png";
 
 // Advantages
 import Communicative from "../assets/images/Advantages/Communicative.png";
@@ -47,7 +48,7 @@ export const Portfolios = [
     type: "Website",
     dis: "Web Apps",
     responsibility: ["Website", "UI/UX Design"],
-    credit: "https://dribbble.com/shots/15164950-Recruiting-app",
+    credit: "https://volunteer-link.vercel.app",
     detail:
       "VolunteerLink is an online platform designed to connect volunteers with organizations efficiently. It aims to bridge the gap between eager volunteers and organizations in need of their skills.",
   },
@@ -55,22 +56,35 @@ export const Portfolios = [
     id: "asd1293uhjkhkjh2",
     title: "Pc Registration System",
     imageUrl: Stream,
-    type: "Mobile Apps",
+    type: "Website",
     dis: "Mobile & Web Apps",
     responsibility: ["Mobile Development", "UI/UX Design", "Website"],
-    credit: "https://dribbble.com/shots/15276430-Stream",
+    credit: "https://dbuprm.vercel.app/",
     detail:
       "The PRMS for DBU project was developed to seamlessly protect personal computers from theft. This system is designed for the university community to streamline PC registration and management. It incorporates features such as barcode and QR code generation, along with PC owner identification.",
   },
+
   {
     id: "asd1293uvbvcbbd3",
+    title: "North shewa diocese Information management",
+    imageUrl: North,
+    type: "Website",
+
+    dis: "Mobile & Web  Apps",
+    responsibility: ["UI/UX Design", "Website"],
+    credit: "https://northshewadiocese.netlify.app/",
+    detail:
+      "The Information Management System for North Shoa Diocese is an innovative system that provides an instantly updated, centralized source of data for the entire diocese. It facilitates efficient administration, tracking, and automation of data, ensuring seamless operations across all levels (five user levels) of the diocese.",
+  },
+  {
+    id: "asd1293uvbvcbbd4",
     title: "Abune Gorgorious School Management",
     imageUrl: Freelance,
-    type: "Mobile Apps",
+    type: "Website",
 
     dis: "Mobile & Web  Apps",
     responsibility: ["Mobile Development", "UI/UX Design", "Website"],
-    credit: "https://dribbble.com/shots/15223131-Freelance-Mobile-App-Concept",
+    credit: "/abg-school",
     detail:
       "Abune Gorgorios School Management System is a comprehensive and user-friendly platform designed to streamline and enhance the management and administration of educational institutions. This system provides a range of features to facilitate efficient communication, data management, and academic operations within the school.",
   },
