@@ -17,8 +17,10 @@ export default function Footer() {
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
             <h1 className="text-lg text-theme-blue pt-4 pb-2">Contact</h1>
-            <p className="text-lg text-gray-400 font-light">info@sekela.com</p>
-            <p className="text-lg text-gray-400 font-light">0921154404 </p>
+            <p className="text-lg text-gray-400 font-light">
+              sekelatechsolutions@gmail.com
+            </p>
+            <p className="text-lg text-gray-400 font-light">+251 921154404 </p>
             <p className="text-lg text-gray-400 font-light">
               Addis Ababa, Ethiopia
             </p>
@@ -35,7 +37,7 @@ export default function Footer() {
               Instagram
             </Button>
             <Button
-              href="https://www.linkedin.com/company/104257822/admin/inbox?lipi=urn%3Ali%3Apage%3Aorganization_admin_admin_inbox_index%3B5af00602-6c90-418c-843c-5de8c1740d4a"
+              href="https://www.linkedin.com/company/sekelatech-solutions"
               type="link"
               target="_blank"
               className="flex text-lg text-gray-400 font-light hover:underline"
