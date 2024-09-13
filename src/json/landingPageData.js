@@ -17,7 +17,7 @@ import Favorite from "../assets/images/Advantages/Favorite.png";
 
 // TeamMembers
 import HRD from "../assets/images/TeamMembers/HRD.png";
-import Frontend1 from "../assets/images/TeamMembers/Frontend1.png";
+import Frontend1 from "../assets/images/TeamMembers/bb.jpg";
 import Backend1 from "../assets/images/TeamMembers/Backend1.png";
 import Mobile2 from "../assets/images/TeamMembers/Mobile2.png";
 import UIUX1 from "../assets/images/TeamMembers/UIUX1.png";
@@ -126,11 +126,7 @@ export const TeamMembers = [
     position: "CEO & Full Stack Developer",
     imageUrl: Backend1,
   },
-  {
-    name: "Bereket Zewde",
-    position: "Full Stack Web Developer",
-    imageUrl: Frontend1,
-  },
+
   {
     name: "Tsehaynesh Biruh",
     position: "Social Media Marketer",
@@ -147,5 +143,10 @@ export const TeamMembers = [
     name: "Ashenafi Debela",
     position: "UI/UX & Frontend Developer",
     imageUrl: UIUX1,
+  },
+  {
+    name: "Bereket Zewde",
+    position: "Full Stack Web Developer",
+    imageUrl: Frontend1,
   },
 ];
