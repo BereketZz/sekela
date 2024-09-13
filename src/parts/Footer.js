@@ -11,8 +11,8 @@ export default function Footer() {
           <div className="w-1/3 flex-col ml-16 mr-8">
             <BrandIcon />
             <p className="w-full text-lg text-gray-400 font-light">
-              Growing Your Business <br />
-              Is Our Calling
+              Today's Vision <br />
+              Tomorrow's Reality
             </p>
           </div>
           <div className="w-1/3 mt-0 ml-16 mr-0 sm:ml-0 sm:mr-5">
